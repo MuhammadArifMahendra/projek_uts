@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('template', [HomeController::class, 'showtemplate']);
+Route::get('blog', [HomeController::class, 'showblog']);

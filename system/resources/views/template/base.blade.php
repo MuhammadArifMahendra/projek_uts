@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>ArifMahendra</title>
+    <title>Berita Ketapang</title>
 
     <link rel="stylesheet" type="text/css" media="screen" href="{{url('public')}}/css/coolblue.css" />
 
@@ -29,38 +29,7 @@
 <body id="top">
 
 <!--header -->
-<div id="header-wrap"><header>
-
- 	<hgroup>
-        <h1></h1>
-        <h3>Just Another Styleshout Template</h3>
-    </hgroup>
-
-    <nav>
-		<ul>
-			<li id="current"><a href="index.html">Home</a><span></span></li>
-			<li><a href="style.html">Style Demo</a><span></span></li>
-			<li><a href="blog.html">Blog</a><span></span></li>
-			<li><a href="archive.html">Archives</a><span></span></li>
-			<li><a href="index.html">Support</a><span></span></li>
-			<li><a href="index.html">About</a><span></span></li>
-		</ul>
-	</nav>
-
-    <div class="subscribe">
-        <span>Subscribe:</span> <a href="#">Email</a> | <a href="#">RSS</a>
-    </div>
-
-   <form id="quick-search" method="get" action="index.html">
-      <fieldset class="search">
-         <label for="qsearch">Search:</label>
-         <input class="tbox" id="qsearch" type="text" name="qsearch" value="Search..." title="Start typing and hit ENTER" />
-         <button class="btn" title="Submit Search">Search</button>
-      </fieldset>
-   </form>
-
-<!--/header-->
-</header></div>
+@include('template.section.header')
 	
 <!-- content-wrap -->
 <div id="content-wrap">
@@ -75,7 +44,7 @@
 
       		    <div class="primary">
 
-                    <h2><a href="index.html">Ini Artikel Saya</a></h2>
+                    <h2><a href="index.html">Berita Terbaru</a></h2>
 
                     <p class="post-info"><span>filed under</span> <a href="index.html">templates</a>, <a href="index.html">internet</a></p>
 
@@ -205,85 +174,7 @@
         </div>
 
         <!-- sidebar -->
-		<div id="sidebar">
-
-      	    <div class="about-me">
-
-         	    <h3>About Me</h3>
-
-                <p>
-		        <a href="index.html"><img src="{{url('public')}}/images/gravatar.jpg" width="42" height="42" alt="firefox" class="align-left" /></a>
-                Lorem ipsum dolor sit, consectetuer adipiscing. Donec libero. Suspendisse bibendum.
-			    Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu
-			    posuere nunc justo tempus leo suspendisse bibendum. <a href="index.html">Learn more...</a>
-			    </p>
-
-            </div>
-
-			<div class="sidemenu">
-
-				<h3>Sidebar Menu</h3>
-                <ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="index.html#TemplateInfo">TemplateInfo</a></li>
-					<li><a href="style.html">Style Demo</a></li>
-					<li><a href="blog.html">Blog</a></li>
-					<li><a href="archives.html">Archives</a></li>
-					<li><a href="http://themeforest.net?ref=ealigam" title="Web Templates">Web Templates</a></li>
-				</ul>
-
-			</div>
-
-			<div class="sidemenu">
-
-				<h3>Sponsors</h3>
-
-                <ul>
-			        <li><a href="http://themeforest.net?ref=ealigam" title="Site Templates">Themeforest
-	            	<span>Site Templates, Web &amp; CMS Themes.</span></a>
-	                </li>
-					<li><a href="http://www.4templates.com/?go=228858961" title="Website Templates">4Templates
-	            	<span>Low Cost High-Quality Templates.</span></a>
-	                </li>
-					<li><a href="http://store.templatemonster.com?aff=ealigam" title="Web Templates">Templatemonster
-	            	<span>Delivering the Best Templates on the Net!</span></a>
-	                </li>
-					<li><a href="http://graphicriver.net?ref=ealigam" title="Stock Graphics">Graphic River
-	            	<span>Awesome Stock Graphics.</span></a>
-	                </li>
-                    <li><a href="http://www.dreamhost.com/r.cgi?287326|sshout" title="Webhosting">Dreamhost
-	            	<span>Premium Webhosting. Use the promocode <strong>sshout</strong> and save <strong>50 USD</strong>.</span></a>
-	                </li>
-				</ul>
-
-			</div>
-
-            <div class="sidemenu popular">
-
-				<h3>Most Popular</h3>
-				<ul>
-			   	<li><a href="index.html">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-						<span>Posted on December 22, 2010</span></a>
-					</li>
-                <li><a href="index.html">Cras fringilla magna. Phasellus suscipit.
-						<span>Posted on December 20, 2010</span></a>
-					</li>
-                <li><a href="index.html">Morbi tincidunt, orci ac convallis aliquam.
-						<span>Posted on December 15, 2010</span></a>
-					</li>
-                <li><a href="index.html">Ipsum dolor sit amet, consectetuer adipiscing elit.
-						<span>Posted on December 14, 2010</span></a>
-					</li>
-                <li><a href="index.html">Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem
-						<span>Posted on December 12, 2010</span></a>
-					</li>
-				</ul>
-
-			</div>
-
-        <!-- /sidebar -->
-		</div>
-
+		@include('template.section.sidebar')
     <!-- content -->
 	</div>
 
@@ -449,22 +340,7 @@
 </div></div>
 
 <!-- footer -->
-<footer>
-
-	<p class="footer-left">
-		&copy; 2011 Copyright Info &nbsp; &nbsp; &nbsp;
-		Design by <a href="{{url('public')}}/http://www.styleshout.com/">styleshout</a>
-	</p>
-
-	<p class="footer-right">
-	   	<a href="index.html">Home</a> |
-		<a href="index.html">Sitemap</a> |
-		<a href="index.html">RSS Feed</a> |
-        <a href="#top" class="back-to-top">Back to Top</a>
-    </p>
-
-<!-- /footer -->
-</footer>
+@include('template.section.footer')
 
 </body>
 </html>
