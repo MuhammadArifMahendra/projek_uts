@@ -6,9 +6,7 @@
 
                 <p>
 		        <a href="index.html"><img src="{{url('public')}}/images/gravatar.jpg" width="42" height="42" alt="firefox" class="align-left" /></a>
-                Lorem ipsum dolor sit, consectetuer adipiscing. Donec libero. Suspendisse bibendum.
-			    Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu
-			    posuere nunc justo tempus leo suspendisse bibendum. <a href="index.html">Learn more...</a>
+              Hai Saya Muhammad Arif Mahendra . <a href="#">Learn more...</a>
 			    </p>
 
             </div>
@@ -17,12 +15,10 @@
 
 				<h3>Sidebar Menu</h3>
                 <ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="index.html#TemplateInfo">TemplateInfo</a></li>
-					<li><a href="style.html">Style Demo</a></li>
-					<li><a href="blog.html">Blog</a></li>
-					<li><a href="archives.html">Archives</a></li>
-					<li><a href="http://themeforest.net?ref=ealigam" title="Web Templates">Web Templates</a></li>
+					<li><a href="template">Home</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">TemplateInfo</a></li>
+					<li><a href="#" title="Web Templates">Web Templates</a></li>
 				</ul>
 
 			</div>
@@ -32,7 +28,7 @@
 				<h3>Sponsors</h3>
 
                 <ul>
-			        <li><a href="http://themeforest.net?ref=ealigam" title="Site Templates">Themeforest
+			        <li><a href="#" title="Site Templates">Themeforest
 	            	<span>Site Templates, Web &amp; CMS Themes.</span></a>
 	                </li>
 					<li><a href="http://www.4templates.com/?go=228858961" title="Website Templates">4Templates

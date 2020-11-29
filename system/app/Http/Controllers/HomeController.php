@@ -13,4 +13,10 @@ class HomeController extends Controller{
 	function Showblog(){
 		return view('template.blog');
 	}
+
+	function Showadmin(){
+	return view('template.Admin.admin');
+	}
+
 }
+

@@ -1,20 +1,11 @@
 
 <div id="header-wrap"><header>
 
- 	<hgroup>
-        <h1><a href="index.html">Coolblue</a></h1>
-        <h3>Just Another Styleshout Template</h3>
-    </hgroup>
-
     <nav>
 		<ul>
 			<li id="current"><a href="{{url('/template')}}">Home</a><span></span></li>
-			<li><a href="style.html">Style Demo</a><span></span></li>
 			<li><a href="{{url('/blog')}}">Blog</a><span></span></li>
-			<li><a href="archive.html">Archives</a><span></span></li>
-			<li><a href="index.html">Support</a><span></span></li>
-			<li><a href="index.html">About</a><span></span></li>
-		</ul>
+			<li><a href="archive.html">Login</a><span></span></li>
 	</nav>
 
     <div class="subscribe">

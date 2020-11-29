@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>CoolBlue</title>
+    <title>Berita Ketapang</title>
 
     <link rel="stylesheet" type="text/css" media="screen" href="{{url('public')}}/css/coolblue.css" />
 
@@ -22,7 +22,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="{{url('public')}}/js/jquery-1.6.1.min.js"><\/script>')</script>
 
-    <script src="js/scrollToTop.js"></script>
+    <script src="{{url('public')}}/js/scrollToTop.js"></script>
 
 </head>
 
@@ -46,25 +46,43 @@
                 <!-- primary -->
          	    <div class="primary">
 
-            	    <h2><a href="index.html">A Blog Post</a></h2>
-
-                    <p class="post-info"><span>Filed under</span> <a href="index.html">templates</a>, <a href="index.html">internet</a></p>
+            	    <h2><a href="index.html">Informatika dan Ilmu Komputer</a></h2>
 
                     <div class="image-section">
-              		    <img src="images/img-post.jpg" alt="image post" height="206" width="498"/>
+              		    <img src="{{url('public')}}/images/informatika.jpg" alt="image post" height="206" width="498"/>
          	        </div>
 
-				    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum.
-					Cras id urna. Morbi tincidunt, orci ac <a href="index.html">convallis aliquam</a>, lectus turpis varius lorem, eu
-				    posuere nunc justo tempus leo.</p>
+				    <p> <h3>Informatika</h3>
+
+Informatika merupakan salah satu cabang keilmuan yang cukup luas karena hampir mencakup dan terkait dengan berbagai hal tentang kehidupan ini, dimana kumpulan disiplin informatika ini meliputi sains maupun teknik yang secara spesifik mengolah data menjadi informasi dengan memanfaatkan seoptimal mungkin teknologi informasi atau komputer.
+
+Dalam bahasa Indonesia, istilah Informatika diturunkan dari bahasa Perancis informatique, yang dalam bahasa Jerman disebut Informatik. Sebenarnya, kata ini identik dengan istilah computer science di Amerika Serikat dan computing science di Inggris.
+
+Dalam pendefenisian istilah informatika , menurut Philippe Dreyfus (1962) dan l’Academie Francaise (1967) yang mendefenisikan informatika tersebut sebagai berikut:
+
+Kumpulan Disiplin Ilmu (scientific discipline) dan Disiplin Teknik (engineering discipline) yang secara spesifik menyangkut transformasi/ pengolahan dari “Fakta Simbolik” (data/informasi), yang terutama menggunakan fasilitas mesin-mesin otomatis/komputer.
+
+Dalam bahasa Inggris memiliki makna yang sedikit berbeda, yaitu lebih menekankan pada aspek pengolahan informasi secara sistematis dan rasional.
+
+Jika dilihat secara menyeluruh dari pengertian informatika di atas, pendekatan logika dan sistematika merupakan ciri yang cukup dominan dari Informatika ini, mengingat pendekatan tersebut merupakan kunci dalam hal mendapatkan solusi dalam menyelesaikan berbagai masalah.
+
+Pada prinsipnya keilmuan ini lebih menekankan bagaimana suatu data dan informasi dapat diolah sedemikian dengan berbantuan teknologi yang terotomatisasi .
+
+Teknologi yang terautomatisasi tersebut tidak hanya dalam satu mesin , namun bisa melibatkan beberapa mesin. Mesin ini lebih umum disebut dengan komputer. Komputer sebagai bahan utama dalam bidang keilmuan ini memiliki peranan yang sangat tinggi, sehingga informatika secara sederhana mengupas mulai dari bagaimana mesin tersebut bisa bekerja, bagaimana suatu data diolah dengan cara yang dimengerti oleh mesin sedangkan informasinya dimengerti juga oleh manusia, sampai bagaimana mesin tersebut mampu berkomunikasi dengan mesin lainnya.</p>
 
 				    <p>
-				    Donec mattis, purus nec placerat bibendum, <a href="index.html">dui pede condimentum</a>
-				    odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra
-				    condimentum, lorem tellus eleifend magna, <a href="index.html">eget fringilla velit</a> magna id neque. Curabitur vel urna.
-				    In tristique orci porttitor ipsum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum.
-				    Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu
-				    posuere nunc justo tempus leo.</p>
+				    <h3>Ilmu Komputer</h3>
+
+Secara umum, Ilmu Komputer yang lebih dikenal dengan nama Komputer Sains (Computer Science, CS) adalah ilmu yang mempelajari tentang komputasi , baik perangkat keras (hardware ) maupun perangkat lunak (software ). Ilmu komputer mencakup beragam topik berkaitan dengan komputer, dari analisa abstrak algoritma sampai subyek yang lebih konkret seperti bahasa pemrograman , perangkat lunak, dan perangkat keras. Sebagai suatu disiplin ilmu, Ilmu Komputer berbeda dengan pemrograman komputer, rekayasa perangkat lunak dan teknik komputer, sekalipun ketiga istilah tersebut sering disalahartikan.
+
+Tesis Church-Turing menyatakan bahwa semua alat komputasi yang telah umum diketahui sebenarnya sama dalah hal apa yang bisa mereka lakukan, sekalipun dengan efisiensi yang berbeda. Tesis ini terkadang dianggap sebagai pronsip dasar dari ilmu komputer. Para ahli ilmu komputer biasanya menekankan komputer von Neumann atau mesin Turing , karena seperti itulah kebanyakan komputer digunakan sekarang ini. Para ahli ilmu komputer juga mempelajari jenis mesin yang lain, beberapa diantaranya praktikal (seperti paralel dan kuantum) dan beberapa diantaranya cukup teoritis (seperti random and oracle).
+
+REPORT THIS AD
+Ilmu Komputer mempelajari apa yang bisa dilakukan oleh program, dan apa yang tidak (komputasi dan intelegensia buatan ), bagaimana program harus mengevaluasi suatu hasil (algoritma), bagaimana program harus menyimpan dan mengambil bit tertentu dari suatu informasi (struktur data ), dan bagaimana program dan pengguna berkomunikasi (antarmuka pengguna dan bahasa pemrograman).
+
+Ilmu komputer berakar dari elektronika , matematika dan linguistik . Dalam tiga dekade terakhir dari abad 20, ilmu komputer telah menjadi suatu disiplin ilmu baru dan telah mengembangkan metode dan istilah sendiri.
+
+Departemen ilmu komputer pertama didirikan di Universitas Purdue pada tahun 1962. Hampir semua universitas sekarang mempunyai departemen ilmu komputer. Penghargaan tertinggi dalam ilmu komputer adalah Turing Award , pemenang penghargaan ini adalah semua pionir di bidangnya.</p>
 
                 <!-- /primary -->
                 </div>
@@ -77,7 +95,7 @@
                 <div class="post-meta">
                	    <h4>Post Info</h4>
                     <ul>
-                  	    <li class="user"><a href="#">Erwin</a></li>
+                  	    <li class="user"><a href="#">Mhmmdarifz</a></li>
                         <li class="time"><a href="#">12:30 PM</a></li>
                         <li class="comment"><a href="#">10 Comments</a></li>
                         <li class="permalink"><a href="#">Permalink</a></li>
@@ -87,9 +105,9 @@
                <div class="post-meta">
                     <h4>tags</h4>
 					<ul class="tags">
-			         	<li><a href="index.html" rel="tag">Clean</a></li>
-			            <li><a href="index.html" rel="tag">Blog</a></li>
-			            <li><a href="index.html" rel="tag">Minimal</a></li>
+			         	<li><a href="index.html" rel="#">Informatika</a></li>
+			            <li><a href="index.html" rel="#">Blog</a></li>
+			            <li><a href="index.html" rel="#">Teknologi</a></li>
 			         </ul>
                </div>
 
@@ -110,7 +128,7 @@
 						<li class="depth-1">
 
 							<div class="comment-info">
-								<img alt="" src="images/gravatar.jpg" class="avatar" height="42" width="42" />
+								<img alt="" src="{{url('public')}}/images/gravatar.jpg" class="avatar" height="42" width="42" />
 								<cite>
 									<a href="index.html">Erwin</a> Says: <br />
 									<span class="comment-data"><a href="#comment-63" title="">January 31st, 2010 at 10:00 pm</a></span>
@@ -130,7 +148,7 @@
 								<li class="depth-2">
 
 									<div class="comment-info">
-										<img alt="" src="images/gravatar.jpg" class="avatar" height="42" width="42" />
+										<img alt="" src="{{url('public')}}/images/gravatar.jpg" class="avatar" height="42" width="42" />
 										<cite>
 											<a href="index.html">Erwin</a> Says: <br />
 											<span class="comment-data"><a href="#" title="">January 31st, 2010 at 8:15 pm</a></span>
@@ -149,7 +167,7 @@
 								<li class="depth-2">
 
 									<div class="comment-info">
-										<img alt="" src="images/gravatar.jpg" class="avatar" height="42" width="42" />
+										<img alt="" src="{{url('public')}}/images/gravatar.jpg" class="avatar" height="42" width="42" />
 										<cite>
 											<a href="index.html">Erwin</a> Says: <br />
 											<span class="comment-data"><a href="#" title="">January 31st, 2010 at 8:15 pm</a></span>
@@ -169,7 +187,7 @@
 										<li class="depth-3">
 
 											<div class="comment-info">
-												<img alt="" src="images/gravatar.jpg" class="avatar" height="42" width="42" />
+												<img alt="" src="{{url('public')}}/images/gravatar.jpg" class="avatar" height="42" width="42" />
 												<cite>
 													<a href="index.html">Erwin</a> Says: <br />
 													<span class="comment-data"><a href="#" title="">January 31st, 2010 at 8:10 pm</a></span>
@@ -197,7 +215,7 @@
 						<li class="thread-alt depth-1">
 
 							<div class="comment-info">
-								<img alt="" src="images/gravatar.jpg" class="avatar" height="42" width="42" />
+								<img alt="" src="{{url('public')}}/images/gravatar.jpg" class="avatar" height="42" width="42" />
 								<cite>
 									<a href="index.html">Erwin</a> Says: <br />
 									<span class="comment-data"><a href="#comment-63" title="">January 31st, 2010 at 8:00 pm</a></span>
@@ -218,7 +236,7 @@
 								<li class="depth-2">
 
 									<div class="comment-info">
-										<img alt="" src="images/gravatar.jpg" class="avatar" height="42" width="42" />
+										<img alt="" src="{{url('public')}}/images/gravatar.jpg" class="avatar" height="42" width="42" />
 										<cite>
 											<a href="index.html">Erwin</a> Says: <br />
 											<span class="comment-data"><a href="#" title="">January 31st, 2010 7:35 pm</a></span>
@@ -238,7 +256,7 @@
 										<li class="depth-3">
 
 											<div class="comment-info">
-												<img alt="" src="images/gravatar.jpg" class="avatar" height="42" width="42" />
+												<img alt="" src="{{url('public')}}/images/gravatar.jpg" class="avatar" height="42" width="42" />
 												<cite>
 													<a href="index.html">Erwin</a> Says: <br />
 													<span class="comment-data"><a href="#" title="">January 31st, 2010 at 7:20 pm</a></span>
@@ -268,7 +286,7 @@
 						<li class="depth-1">
 
 							<div class="comment-info">
-								<img alt="" src="images/gravatar.jpg" class="avatar" height="42" width="42" />
+								<img alt="" src="{{url('public')}}/images/gravatar.jpg" class="avatar" height="42" width="42" />
 								<cite>
 									<a href="index.html">Erwin</a> Says: <br />
 									<span class="comment-data"><a href="#comment-63" title="">January 31st, 2010  at 6:08 pm</a></span>
@@ -291,7 +309,7 @@
 								<li class="depth-2">
 
 									<div class="comment-info">
-										<img alt="" src="images/gravatar.jpg" class="avatar" height="42" width="42" />
+										<img alt="" src="{{url('public')}}/images/gravatar.jpg" class="avatar" height="42" width="42" />
 										<cite>
 											<a href="index.html">Erwin</a> Says: <br />
 											<span class="comment-data"><a href="#comment-63" title="">January 31st, 2010 at 6:08 pm</a> </span>
@@ -463,15 +481,15 @@
 
             <div class="footer-list">
 			    <ul>
-				    <li><a href="http://jasonlarose.com/blog/110-free-classy-social-media-icons">
+				    <li><a href="{{url('public')}}/http://jasonlarose.com/blog/110-free-classy-social-media-icons">
 						110 Free Classy Social Media Icons by Jason LaRose
 				    </a>
 				    </li>
-                    <li><a href="http://wefunction.com/2009/05/free-social-icons-app-icons/">
+                    <li><a href="{{url('public')}}/http://wefunction.com/2009/05/free-social-icons-app-icons/">
 						Free Social Media Icons by WeFunction
 				    </a>
 				    </li>
-                    <li><a href="http://iconsweets2.com/">
+                    <li><a href="{{url('public')}}/http://iconsweets2.com/">
 						Free Icons by Yummygum
 				    </a>
 				    </li>
